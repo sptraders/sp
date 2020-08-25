@@ -1,0 +1,83 @@
+#header img{
+    height: 50px !important;
+}
+
+#header{
+    background: url("../images/bann.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+#headergall img{
+    height: 50px !important;
+}
+#headergall{
+
+}
+nav{
+    background: rgba(0,0,0,0.7);
+}
+
+#slides{
+    height: 500px !important;
+}
+
+#slides h2{
+    text-shadow: 2px 5px 10px orange;
+}
+#slides h4{
+    font-size: 5vw;
+    text-shadow: 2px 5px 10px orange;
+
+}
+
+#topbtn{
+    height: 30px;
+    width: 30px;
+    bottom: 20px;
+    right: 10px;
+    background-color: pink;
+    position: fixed;
+}
+#topbtn img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#add{
+    font-size: 1.5vw !important;
+}
+#social{
+    font-size: 5vw !important;
+}
+#social a{
+    color: white !important;
+
+}
+
+.bg-dedark
+{
+    background-color: black !important;
+}
+
+#gallimg img{
+    height: 300px !important;
+    width: 300px !important;
+}
+@media only screen and (max-width: 768px) {
+#slides h2{
+    font-size: 12vw;
+}
+#slides h4{
+    font-size: 8vw;
+}
+#add{
+    font-size: 4vw !important;
+}
+#social{
+    font-size: 10vw !important;
+}
+#gallimg img{
+    height: 200px !important;
+    width: 100% !important;
+}
+}
